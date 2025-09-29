@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexitus - Estudio Contable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #ff3366;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative; /* Esto permite posicionar el logo */
+        }
+        header h1 {
+            font-size: 2.5em; /* Tamaño del título */
+            margin: 0;
+        }
+        header img {
+            max-width: 100px; /* Ajustamos el tamaño del logo */
+            position: absolute; /* Posicionamos el logo */
+            right: 20px; /* Mueve el logo hacia el margen derecho */
+            top: 50%; /* Centrado verticalmente */
+            transform: translateY(-50%); /* Alinea correctamente al centro vertical */
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .main {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url('background.jpg'); /* Cambia a la ruta de la imagen deseada */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        .main h1 {
+            font-size: 2.5em; /* Tamaño grande del título */
+            margin-bottom: 20px;
+        }
+        .main button {
+            background-color: #ff3366;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            cursor: pointer;
+        }
+        .services, .news, .benefits {
+            padding: 40px 20px;
+            background-color: #fff;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .services div, .benefits div {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            vertical-align: top;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+            position: relative;
+        }
+        .footer form {
+            margin-top: 20px;
+        }
+        .footer input, .footer textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .footer button {
+            background-color: #ff3366;
+            border: none;
+            padding: 10px 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .whatsapp-button {
+            background-color: #25d366;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Conexitus</h1>
+        <img src="https://i.imgur.com/RsIB4wU.png" alt="Logo Conexitus"> <!-- Logo alineado a la derecha -->
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#nosotros">Nosotros</a>
+        </nav>
+    </header>
+
+    <!-- Cuerpo principal -->
+    <section class="main" id="inicio">
+        <h1>Conexitus, al servicio de tu negocio</h1>
+        <button>Conocer más</button>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section class="services" id="servicios">
+        <h2>Servicios</h2>
+        <div>
+            <h3>Asesoramiento Fiscal</h3>
+            <img src="https://i.imgur.com/v1e0qOE.png" alt="Asesor Fiscal" style="width: 100%; max-width: 200px;">
+            <p>Expertos en asesoramiento fiscal para maximizar tus beneficios.</p>
+        </div>
+        <div>
+            <h3>Auditoría</h3>
+            <img src="https://i.imgur.com/dtgQs1f.png" alt="Auditoría Interna" style="width: 100%; max-width: 200px;">
+            <p>Servicios de auditoría para garantizar la precisión de tus finanzas.</p>
+        </div>
+        <div>
+            <h3>Planificación Financiera</h3>
+            <img src="https://i.imgur.com/ESOAJfC.png" alt="Planificación Financiera" style="width: 100%; max-width: 200px;">
+            <p>Planificación personalizada para el crecimiento de tu negocio.</p>
+        </div>
+    </section>
+
+    <!-- Sección de noticias -->
+    <section class="news">
+        <h2>Últimas Noticias</h2>
+        <img src="https://i.imgur.com/DLe0yrt.png" alt="Pagina AFIP" style="width: 80%; max-width: 200px;">
+        <p>Este lunes 21 de octubre se informó la disolución de la AFIP (Administración Federal de Ingresos Públicos), que será reemplazada por la Agencia de Recaudación y Control Aduanero (ARCA).. <a href="#">Leer más...</a></p>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="benefits">
+        <h2>Por qué elegir Conexitus</h2>
+        <div>
+            <h3>Confianza</h3>
+            <p>Más de 15 años de experiencia en el mercado.</p>
+        </div>
+        <div>
+            <h3>Experiencia</h3>
+            <p>Contadores profesionales capacitados en diversos temas.</p>
+        </div>
+        <div>
+            <h3>Soluciones Personalizadas</h3>
+            <p>Adaptamos nuestros servicios a tus necesidades específicas.</p>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <h2>Contacto</h2>
+        <p>Dirección: Santa Rosa 4 Cordoba</p>
+        <p>Teléfono: +54 3517910019</p>
+        <p>Email: conexitus@gmail.com</p>
+
+        <a href="https://wa.me/+5493517910019?text=Hola%20😊,%20estoy%20interesado%20en%20el%20asesoramiento%20que%20brindan.%20¿Podrían%20darme%20más%20información%20👍?" class="whatsapp-button">Contactar por WhatsApp</a>
+    </footer>
+
+</body>
+</html>

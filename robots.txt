@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://conexitus.netlify.app/sitemap.xml
