@@ -1,3 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /clientes/
+Disallow: /docs/
 Sitemap: https://conexitus.netlify.app/sitemap.xml
